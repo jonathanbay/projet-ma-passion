@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
+
+body {
+    background: url(../media/bg-console.jpg) no-repeat center/cover fixed;
+    height: 100vh;
+    font-family: 'Asap Condensed', sans-serif;
+    
+}
+#titre {
+    background: rgba(171, 171, 230, 0.63);
+    width: 50%;
+    color: #525050;
+    font-size: 1.3rem;
+    text-align: center;
+    transform: translateX(50%);
+
+}
+.console {
+    background: rgba(171, 171, 230, 0.63);
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+    font-size: 2rem;
+    transform: translateX(85%);
+    border-radius: 10px;
+    box-shadow: 2px 3px 16px 1px #8c8991a8;
+
+}
+
+
+
+.icon2 img {
+    width: 30px;
+    position: absolute;
+    top: 100px;
+    left: 950px;
+    transition: 0.3s;
+}
+.icon2 img:hover {
+    transform: scale(1.2);
+}

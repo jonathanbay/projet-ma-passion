@@ -1,0 +1,45 @@
+body {
+    background: url(../media/bg.png) no-repeat bottom/cover;
+    height: 100vh;
+    text-align: center;
+    
+}
+h1 {
+    background: rgb(244 243 245 / 48%);
+    width: 350px;
+    color: rgb(232, 245, 255);
+    margin-top: 20px;
+    padding: 8px;
+    display: inline; 
+    border-radius: 10px; 
+}
+.presentation {
+    font-size: 1.2rem;
+    height: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    color: rgb(232, 245, 255) ;
+}
+
+li {
+    list-style-type: none;
+    padding: 2px;
+    margin: 5px;
+    background: rgb(244 243 245 / 48%);
+    width: 30%;
+    font-size: 1.5rem;
+    border: 1px solid rgb(154, 154, 250);
+    border-radius:10px;
+    transition: 0.3s;
+}
+li:hover {
+    background: rgb(5, 212, 219);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+li a {
+    color: rgb(232, 245, 255);
+    text-decoration: none;
+    
+}
