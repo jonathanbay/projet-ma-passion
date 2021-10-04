@@ -25,7 +25,7 @@ li {
     list-style-type: none;
     padding: 2px;
     margin: 5px;
-    background: rgb(244 243 245 / 52%);
+    background: rgb(219 196 243 / 75%);
     width: 30%;
     font-size: 1.5rem;
     border: 1px solid rgb(154, 154, 250);
@@ -34,7 +34,7 @@ li {
 }
 li:hover {
     background: rgb(5, 212, 219);
-    transform: scale(1.02);
+    transform: scale(1.1);
     cursor: pointer;
 }
 
