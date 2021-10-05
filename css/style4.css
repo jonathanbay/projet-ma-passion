@@ -19,17 +19,32 @@ p {
 }
 
 .video {
-    position: absolute;
-    top: 250px;
-    left: 50px;
+    margin: 20px;
+}
+
+/* ******************* mise en place du footer***************** */
+
+.iconEtcopy {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+
 }
 .icon3 img {
-    width: 30px;
-    position: absolute;
-    top: 15px;
-    left: 670px;
+    width: 50px;
     transition: 0.3s;
 }
 .icon3 img:hover {
     transform: scale(1.3);
+}
+.icon3bis img {
+    width: 43px;
+    transition: 0.3s;
+}
+.icon3bis img:hover {
+    transform: scale(1.3);
+}
+#copyright {
+    color: wheat;
+    padding: 10px;
 }
